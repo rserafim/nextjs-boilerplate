@@ -1,6 +1,8 @@
+import * as S from './styles/'
+
 const Main = ({ title = 'React avançado', description = 'testando' }) => (
   <main>
-    <h1>{title}</h1>
+    <S.Title>{title}</S.Title>
     <p>{description}</p>
   </main>
 )
